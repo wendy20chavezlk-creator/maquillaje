@@ -1,0 +1,837 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquillaje y Belleza | Tu tienda ideal</title>
+
+    <style>
+        body {
+            background-color: #FFF5F8;
+            color: #633B50;
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+            margin: 0;
+        }
+
+        caption {
+            caption-side: top;
+            padding: 12px;
+            color: #76264F;
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin: 10px;
+        }
+
+        h2 {
+            font-size: 28px;
+        }
+
+        h3 {
+            font-size: 20px;
+            color: #76264F;
+        }
+
+        p, li {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        a {
+            color: #8F2857;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #C0447D;
+            text-decoration: underline;
+        }
+
+        input, select, textarea {
+            padding: 9px;
+            border: 1px solid #D99AB8;
+            border-radius: 5px;
+            font-size: 16px;
+            max-width: 95%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #96365F;
+            color: white;
+            padding: 11px 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .tabla-principal {
+            border-collapse: collapse;
+        }
+
+        .seccion {
+            border: 3px solid #D9A0B8;
+            border-collapse: collapse;
+        }
+
+        .frase {
+            font-family: Georgia, serif;
+            font-size: 29px;
+            font-weight: bold;
+            color: #76264F;
+        }
+
+        .subfrase {
+            font-size: 19px;
+            color: #85405F;
+        }
+
+        .boton {
+            display: inline-block;
+            background-color: #96365F;
+            color: white;
+            padding: 12px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .boton:hover {
+            background-color: #76264F;
+            color: white;
+        }
+
+        .producto {
+            border: 1px solid #E3B6C9;
+            padding: 15px;
+        }
+
+        .imagen-portada {
+            width: 100%;
+            max-width: 350px;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        .final-tienda p {
+            margin: 8px;
+        }
+
+        @media screen and (max-width: 650px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            .frase {
+                font-size: 23px;
+            }
+
+            p, li {
+                font-size: 16px;
+            }
+
+            table {
+                max-width: 100%;
+            }
+
+            input, select, textarea {
+                width: 95%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ENCABEZADO PRINCIPAL -->
+    <table class="tabla-principal" width="100%"
+           bgcolor="#E8A6C2" cellpadding="12" border="0">
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <caption>BIENVENIDA A NUESTRA TIENDA</caption>
+
+        <thead>
+            <tr>
+                <th align="center" bgcolor="#D989AD">
+                    <h1>
+                        <font color="#FFFFFF" face="Arial">
+                            🌸 MAQUILLAJE Y BELLEZA 🌸
+                        </font>
+                    </h1>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td align="center" bgcolor="#FCEAF1">
+                    <font color="#76264F" size="4">
+                        <b>Resalta tu belleza, expresa tu esencia.</b>
+                    </font>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <table width="100%" cellpadding="12" border="0">
+                        <colgroup>
+                            <col width="50%">
+                            <col width="50%">
+                        </colgroup>
+
+                        <tbody>
+                            <tr valign="middle">
+                                <td align="center" bgcolor="#FCEAF1">
+                                    <p class="frase">
+                                        Tu belleza, tu esencia,
+                                        tu mejor versión.
+                                    </p>
+
+                                    <p class="subfrase">
+                                        Encuentra tus favoritos y descubre
+                                        todo lo que puedes expresar con ellos.
+                                    </p>
+
+                                    <p>
+                                        <a class="boton" href="#productos">
+                                            ¡DESCUBRE NUESTROS PRODUCTOS!
+                                        </a>
+                                    </p>
+                                </td>
+
+                                <td align="center" bgcolor="#F9DCE8">
+                                    <img src="maquillaje.png"
+                                         alt="Maquillaje y belleza"
+                                         class="imagen-portada">
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td align="center">
+                    Belleza, cuidado y estilo en un solo lugar.
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- MENU DE NAVEGACION -->
+    <table width="92%" align="center" bgcolor="#F4C5D8"
+           border="1" cellpadding="14" cellspacing="0"
+           class="tabla-principal">
+
+        <colgroup>
+            <col width="25%">
+            <col width="25%">
+            <col width="25%">
+            <col width="25%">
+        </colgroup>
+
+        <thead>
+            <tr align="center">
+                <th><a href="#productos">🎀 PRODUCTOS</a></th>
+                <th><a href="#beneficios">🎀 BENEFICIOS</a></th>
+                <th><a href="#precios">🎀 PRECIOS</a></th>
+                <th><a href="#contacto">📞 CONTACTO</a></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="4" align="center">
+                    <font color="#76264F" size="4">
+                        <b>Todo lo que buscas para destacar tu belleza.</b>
+                    </font>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- PRESENTACION -->
+    <table class="seccion" width="92%" align="center"
+           bgcolor="#FCEAF1" cellpadding="22" cellspacing="0">
+
+        <caption>Un espacio pensado para ti</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th align="center">
+                    <font color="#FFFFFF" size="6">
+                        DESCUBRE TU PROPIA BELLEZA
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td align="center">
+                    <p>
+                        En Maquillaje y Belleza queremos ayudarte a
+                        encontrar productos que combinen con tu estilo.
+                        Descubre opciones para maquillarte, cuidar tu piel
+                        y expresar tu personalidad.
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr bgcolor="#F4C5D8">
+                <td align="center">
+                    <b>Tu estilo es único. ¡Exprésalo!</b>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- PRODUCTOS -->
+    <a name="productos"></a>
+
+    <table class="seccion" width="92%" align="center"
+           bgcolor="#FFF5F8" cellpadding="18" cellspacing="0">
+
+        <caption>Productos para realzar tu belleza</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th align="center">
+                    <font color="#FFFFFF" size="6">
+                        NUESTRO CATÁLOGO
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="0"
+                           cellpadding="12" cellspacing="10">
+
+                        <colgroup>
+                            <col width="50%">
+                            <col width="50%">
+                        </colgroup>
+
+                        <thead>
+                            <tr>
+                                <th bgcolor="#F4C5D8">
+                                    <font color="#76264F" size="5">
+                                        💄 MAQUILLAJE
+                                    </font>
+                                </th>
+
+                                <th bgcolor="#F4C5D8">
+                                    <font color="#76264F" size="5">
+                                        🌸 CUIDADO FACIAL
+                                    </font>
+                                </th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr valign="top">
+                                <td class="producto" bgcolor="#FCEAF1">
+                                    <ul>
+                                        <li>Labiales y brillos labiales</li>
+                                        <li>Sombras para ojos</li>
+                                        <li>Máscaras de pestañas</li>
+                                        <li>Rubores e iluminadores</li>
+                                        <li>Polvos compactos</li>
+                                        <li>Correctores</li>
+                                        <li>Brochas de maquillaje</li>
+                                    </ul>
+                                </td>
+
+                                <td class="producto" bgcolor="#FCEAF1">
+                                    <ul>
+                                        <li>Cremas hidratantes</li>
+                                        <li>Limpiadores faciales</li>
+                                        <li>Protectores solares</li>
+                                        <li>Mascarillas faciales</li>
+                                        <li>Agua micelar</li>
+                                        <li>Desmaquillantes</li>
+                                        <li>Sérums faciales</li>
+                                    </ul>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan="2" align="center"
+                                    bgcolor="#F4C5D8">
+                                    <b>Consulta la disponibilidad de tus favoritos.</b>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- BENEFICIOS -->
+    <a name="beneficios"></a>
+
+    <table class="seccion" width="92%" align="center"
+           bgcolor="#FCEAF1" cellpadding="18" cellspacing="0">
+
+        <caption>Una experiencia especial</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th>
+                    <font color="#FFFFFF" size="6">
+                        ¿POR QUÉ VISITAR NUESTRA TIENDA?
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="0"
+                           cellpadding="15" cellspacing="8">
+
+                        <colgroup>
+                            <col width="25%">
+                            <col width="25%">
+                            <col width="25%">
+                            <col width="25%">
+                        </colgroup>
+
+                        <tbody>
+                            <tr align="center" valign="top">
+                                <td bgcolor="#F4C5D8">
+                                    <font size="7">💄</font>
+                                    <h3>VARIEDAD</h3>
+                                    <p>Opciones para diferentes gustos y estilos.</p>
+                                </td>
+
+                                <td bgcolor="#F9DCE8">
+                                    <font size="7">💗</font>
+                                    <h3>ATENCIÓN</h3>
+                                    <p>Resolvemos tus dudas sobre los productos.</p>
+                                </td>
+
+                                <td bgcolor="#F4C5D8">
+                                    <font size="7">🎀</font>
+                                    <h3>PROMOCIONES</h3>
+                                    <p>Consulta las ofertas disponibles.</p>
+                                </td>
+
+                                <td bgcolor="#F9DCE8">
+                                    <font size="7">✨</font>
+                                    <h3>ESTILO</h3>
+                                    <p>Encuentra productos que vayan contigo.</p>
+                                </td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr>
+                                <td colspan="4" align="center">
+                                    <b>
+                                        Sentirte bien también es parte de tu belleza.
+                                    </b>
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td align="center" bgcolor="#F4C5D8">
+                    <b>Gracias por elegir Maquillaje y Belleza.</b>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- PRECIOS -->
+    <a name="precios"></a>
+
+    <table class="seccion" width="92%" align="center"
+           bgcolor="#FFF5F8" cellpadding="18" cellspacing="0">
+
+        <caption>Encuentra tu próximo favorito</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th>
+                    <font color="#FFFFFF" size="6">
+                        LISTA DE PRECIOS
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>
+                    <table width="100%" border="1"
+                           cellpadding="13" cellspacing="0">
+
+                        <colgroup>
+                            <col width="70%">
+                            <col width="30%">
+                        </colgroup>
+
+                        <thead>
+                            <tr bgcolor="#F4C5D8">
+                                <th align="left">PRODUCTO</th>
+                                <th align="center">PRECIO REFERENCIAL</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            <tr bgcolor="#FCEAF1">
+                                <td>Labiales</td>
+                                <td align="center">$3</td>
+                            </tr>
+
+                            <tr bgcolor="#FFF5F8">
+                                <td>Brillos labiales</td>
+                                <td align="center">$3</td>
+                            </tr>
+
+                            <tr bgcolor="#FCEAF1">
+                                <td>Máscaras de pestañas</td>
+                                <td align="center">$5</td>
+                            </tr>
+
+                            <tr bgcolor="#FFF5F8">
+                                <td>Sombras para ojos</td>
+                                <td align="center">$6</td>
+                            </tr>
+
+                            <tr bgcolor="#FCEAF1">
+                                <td>Rubores</td>
+                                <td align="center">$5</td>
+                            </tr>
+
+                            <tr bgcolor="#FFF5F8">
+                                <td>Polvos compactos</td>
+                                <td align="center">$6</td>
+                            </tr>
+
+                            <tr bgcolor="#FCEAF1">
+                                <td>Cremas hidratantes</td>
+                                <td align="center">$7</td>
+                            </tr>
+
+                            <tr bgcolor="#FFF5F8">
+                                <td>Protectores solares</td>
+                                <td align="center">$8</td>
+                            </tr>
+                        </tbody>
+
+                        <tfoot>
+                            <tr bgcolor="#F4C5D8">
+                                <td colspan="2" align="center">
+                                    Precios referenciales. Pueden cambiar
+                                    según la marca y presentación.
+                                </td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br>
+
+    <!-- CONTACTO Y PEDIDOS -->
+    <a name="contacto"></a>
+
+    <table class="seccion" width="92%" align="center"
+           bgcolor="#FCEAF1" cellpadding="15" cellspacing="0">
+
+        <caption>Estamos aquí para ayudarte</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th>
+                    <font color="#FFFFFF" size="6">
+                        CONTACTO Y PEDIDOS
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td align="center">
+                    <p>
+                        ¿Te gustó algún producto? Déjanos tus datos
+                        y escribe tu consulta.
+                    </p>
+
+                    <!-- ENVIO DE RESPUESTAS AL CORREO -->
+                    <form action="https://formsubmit.co/wendy20.chavezlk@gmail.com"
+                          method="POST">
+
+                        <input type="hidden" name="_subject"
+                               value="Nuevo mensaje desde mi página web">
+
+                        <input type="hidden" name="_template"
+                               value="table">
+
+                        <input type="hidden" name="_captcha"
+                               value="false">
+
+                        <input type="hidden" name="_next"
+                               value="https://formsubmit.co/thanks">
+
+                        <table width="90%" cellpadding="8" border="0">
+
+                            <colgroup>
+                                <col width="35%">
+                                <col width="65%">
+                            </colgroup>
+
+                            <tbody>
+                                <tr>
+                                    <td><b>Nombre completo:</b></td>
+                                    <td>
+                                        <input type="text" name="nombre"
+                                               maxlength="80" required>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Correo electrónico:</b></td>
+                                    <td>
+                                        <input type="email" name="email"
+                                               maxlength="100" required>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Teléfono:</b></td>
+                                    <td>
+                                        <input type="tel" name="telefono"
+                                               maxlength="20">
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Producto de interés:</b></td>
+                                    <td>
+                                        <select name="producto" required>
+                                            <option value="">
+                                                Selecciona un producto
+                                            </option>
+                                            <option value="labiales">Labiales</option>
+                                            <option value="sombras">Sombras</option>
+                                            <option value="rubores">Rubores</option>
+                                            <option value="cuidado-facial">
+                                                Cuidado facial
+                                            </option>
+                                            <option value="otros">
+                                                Otros productos
+                                            </option>
+                                        </select>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td><b>Cantidad:</b></td>
+                                    <td>
+                                        <input type="number" name="cantidad"
+                                               min="1" value="1" required>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td valign="top"><b>Tu mensaje:</b></td>
+                                    <td>
+                                        <textarea name="mensaje" rows="4"
+                                                  cols="30"
+                                                  placeholder="Cuéntanos qué necesitas..."></textarea>
+                                    </td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        <input type="submit"
+                                               value="Enviar mensaje">
+                                        &nbsp;&nbsp;
+                                        <input type="reset"
+                                               value="Limpiar formulario">
+                                    </td>
+                                </tr>
+                            </tbody>
+
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2" align="center">
+                                        Gracias por comunicarte con nosotros.
+                                    </td>
+                                </tr>
+                            </tfoot>
+
+                        </table>
+                    </form>
+
+                    <hr color="#D99AB8" width="80%">
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td align="center" bgcolor="#F4C5D8">
+                    <b>Será un gusto atenderte.</b>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- INFORMACION DE LA TIENDA -->
+    <table class="seccion final-tienda" width="92%" align="center"
+           bgcolor="#FCEAF1" cellpadding="10" cellspacing="0"
+           border="3">
+
+        <caption>Conoce más sobre nosotros</caption>
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <thead>
+            <tr bgcolor="#D989AD">
+                <th align="center">
+                    <font color="#FFFFFF" size="5" face="Arial">
+                        INFORMACIÓN DE LA TIENDA 🎀
+                    </font>
+                </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td align="center">
+                    <font color="#76264F" size="4" face="Arial">
+
+                        <p><b>Nombre:</b> Maquillaje y Belleza</p>
+
+                        <p><b>Entregas:</b> Consultar disponibilidad</p>
+
+                        <p>
+                            <b>Horario:</b>
+                            Lunes a Viernes de 9:00 a 19:00 h.
+                            Sábados de 10:00 a 14:00 h.
+                        </p>
+
+                        <p>
+                            <b>Email:</b>
+                            <a href="mailto:wendy20.chavezlk@gmail.com">
+                                <font color="#76264F">
+                                    <b>wendy20.chavezlk@gmail.com</b>
+                                </font>
+                            </a>
+                        </p>
+
+                        <p>
+                            <b>WhatsApp:</b>
+                            <a href="https://wa.me/593962320258">
+                                <font color="#76264F">
+                                    <b>+593 962320258</b>
+                                </font>
+                            </a>
+                        </p>
+
+                    </font>
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td align="center" bgcolor="#F4C5D8">
+                    <font color="#76264F" size="4" face="Arial">
+                        <b>
+                            ¡Gracias por elegirnos y ser parte de nuestra belleza!
+                        </b>
+                    </font>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <br>
+
+    <!-- PIE DE PAGINA -->
+    <table width="100%" bgcolor="#D989AD"
+           cellpadding="10" border="0">
+
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+
+        <tfoot>
+            <tr>
+                <td align="center" bgcolor="#76264F">
+                    <font color="#FFFFFF" size="2" face="Arial">
+                        Página creada con HTML | Maquillaje y Belleza
+                    </font>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
